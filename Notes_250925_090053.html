@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Site com Botões</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f0f0;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 15px 30px;
+      margin: 10px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+      color: white;
+    }
+
+    .btn1 {
+      background: #007BFF;
+    }
+    .btn1:hover {
+      background: #0056b3;
+    }
+
+    .btn2 {
+      background: #28a745;
+    }
+    .btn2:hover {
+      background: #1e7e34;
+    }
+
+    .btn3 {
+      background: #ffc107;
+      color: #333;
+    }
+    .btn3:hover {
+      background: #e0a800;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h1>Meu Site com Botões</h1>
+
+  <button class="btn btn1" onclick="alert('Você clicou no Botão 1!')">Botão 1</button>
+  <button class="btn btn2" onclick="alert('Você clicou no Botão 2!')">Botão 2</button>
+  <button class="btn btn3" onclick="alert('Você clicou no Botão 3!')">Botão 3</button>
+
+</body>
+</html>
